@@ -41,3 +41,6 @@ debug.log
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# CI workflow pushed separately (needs token with 'workflow' scope)
+.github/workflows/

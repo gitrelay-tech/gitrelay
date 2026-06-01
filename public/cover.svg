@@ -1,0 +1,35 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitRelay — Repository to Prompt">
+  <title>GitRelay</title>
+  <!-- Cream background -->
+  <rect x="0" y="0" width="1200" height="630" fill="#FFFDF8"/>
+  <!-- Bottom accent bar (brand red) -->
+  <rect x="0" y="618" width="1200" height="12" fill="#d31611"/>
+
+  <!-- UNO-reverse medallion (left) -->
+  <g transform="translate(120 185) scale(2.6)">
+    <g transform="translate(50 50) scale(1.12) translate(-690 -377.36218)">
+      <ellipse cx="690" cy="377.36218" rx="36" ry="23"
+        transform="rotate(-52 690 377.36218)"
+        fill="#d31611" stroke="#b0120e" stroke-width="1.1"/>
+      <path fill="#ffffff" stroke="#141414" stroke-width="0.9" stroke-linejoin="round"
+        d="m 690,361.11217 2.5,2.5 -10,10 c -2.5,2.5 -2.5,7.5 0,10 l 5,-5 10,-10 2.5,2.5 0,-10 z"/>
+      <path fill="#ffffff" stroke="#141414" stroke-width="0.9" stroke-linejoin="round"
+        d="m 690,393.61217 -2.5,-2.5 10,-10 c 2.5,-2.5 2.5,-7.5 0,-10 l -5,5 -10,10 -2.5,-2.5 0,10 z"/>
+    </g>
+  </g>
+
+  <!-- Wordmark + tagline (right) -->
+  <g font-family="'Segoe UI', Arial, Helvetica, sans-serif">
+    <text x="430" y="300" font-size="128" font-weight="800" letter-spacing="-4">
+      <tspan fill="#18181b">Git</tspan><tspan fill="#d31611">Relay</tspan>
+    </text>
+    <text x="436" y="372" font-size="46" font-weight="700" fill="#27272a" letter-spacing="-1">Repository to Prompt</text>
+    <text x="436" y="424" font-size="29" font-weight="400" fill="#71717a">Reverse engineer a codebase into a prompt you can build from.</text>
+
+    <!-- mono URL chip -->
+    <g transform="translate(436 470)">
+      <rect x="0" y="0" width="430" height="48" rx="8" fill="#EBDBB7"/>
+      <text x="20" y="32" font-family="'Consolas','Courier New',monospace" font-size="24" fill="#3f3f46">github.com → gitrelay.xyz</text>
+    </g>
+  </g>
+</svg>

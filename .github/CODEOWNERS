@@ -1,0 +1,7 @@
+# Default owners for everything in the repo
+*       @gitrelay-tech
+
+# Prompt-generation core
+/lib/                       @gitrelay-tech
+/app/api/reverse-prompt/    @gitrelay-tech
+/app/api/custom-reverse/    @gitrelay-tech
