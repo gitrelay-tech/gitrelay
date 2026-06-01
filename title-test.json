@@ -1,0 +1,395 @@
+{
+  "generatedAt": "2026-05-25T05:50:29.231Z",
+  "limit": 10,
+  "systemPrompt": "Generate a concise 5–10 word title describing what this prompt is about in a non-technical, but short descriptive pharse of the to be output. Return only the title — no quotes, no trailing punctuation.",
+  "models": [
+    {
+      "id": "openai/gpt-4o",
+      "label": "gpt-4o"
+    },
+    {
+      "id": "openai/gpt-4o-mini",
+      "label": "gpt-4o-mini"
+    },
+    {
+      "id": "anthropic/claude-haiku-4.5",
+      "label": "claude-haiku"
+    },
+    {
+      "id": "google/gemini-2.5-flash",
+      "label": "gemini-flash"
+    }
+  ],
+  "results": [
+    {
+      "owner": "chaitanyaa241201",
+      "repo": "dockerized-microservices-nginx",
+      "views": 0,
+      "promptPreview": "Build me a simple Docker Compose project that shows two tiny backend services behind one NGINX reverse proxy. I want one…",
+      "promptExcerpt": "Build me a simple Docker Compose project that shows two tiny backend services behind one NGINX reverse proxy.\n\nI want one service written in Go and another written in Python Flask. Each one should have a basic hello endpoint, like `/service1/hello` for the Go service and `/service2/hello` for the Python service. NGINX should sit in front and route requests based on the path, so I can hit one public port and reach either service.\n\nPlease include clean Dockerfiles for both services, an NGINX config, and a docker compose file that builds and runs everything together. Make it easy to test locally,",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Docker Compose Project: Go & Flask Services with NGINX",
+          "error": null,
+          "elapsedMs": 2457
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Docker Compose Setup for Go and Flask Services with NGINX",
+          "error": null,
+          "elapsedMs": 1925
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Docker Compose Multi-Service Setup with NGINX Reverse Proxy\n\nI'll create a complete, production-ready setup with Go and Python services behind NGINX.\n\n## Project Structure",
+          "error": null,
+          "elapsedMs": 1921
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Two services, one NGINX, easy local testing",
+          "error": null,
+          "elapsedMs": 1946
+        }
+      ]
+    },
+    {
+      "owner": "applejackdeer9",
+      "repo": "ai-clip-maker",
+      "views": 0,
+      "promptPreview": "Build me a simple AI clip maker for long videos and streams. I want to drop in a recorded video, especially gaming or st…",
+      "promptExcerpt": "Build me a simple AI clip maker for long videos and streams. I want to drop in a recorded video, especially gaming or streaming footage, and have it automatically find the best moments, split them into short clips, and make them ready to post on social media.\n\nThe app should detect scene changes, exciting moments, and useful highlights without me scrubbing through the whole video. It should also be able to crop the video smartly for vertical clips, keeping the important action in frame. I’d like a clean screen where I can upload a video, start the analysis, see the generated clips, preview the",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Automated Video Clipping Tool for Social Media Highlights",
+          "error": null,
+          "elapsedMs": 972
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Automated Clip Maker for Gaming and Streaming Highlights",
+          "error": null,
+          "elapsedMs": 444
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# AI-Powered Automatic Video Clip Generator\n\nHere's a complete implementation:\n\n```python\n# requirements.txt\nfastapi==0.104.1\nuvicorn==",
+          "error": null,
+          "elapsedMs": 903
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "AI video highlight creator",
+          "error": null,
+          "elapsedMs": 582
+        }
+      ]
+    },
+    {
+      "owner": "gorardim",
+      "repo": "go_starter",
+      "views": 0,
+      "promptPreview": "Build me a simple Go server starter project that runs locally with two web entry points, one normal API on localhost por…",
+      "promptExcerpt": "Build me a simple Go server starter project that runs locally with two web entry points, one normal API on localhost port 7702 under `/api`, and one admin area on localhost port 7703 under `/admin`.\n\nI want both sides to expose Swagger pages so I can open the docs in the browser and try the endpoints. The admin routes should accept an authorization token in the request header, and there should be a testing only admin endpoint that can create a sample tree shaped test case from JSON. The JSON should support a root user id and a nested test case object with fields like name, invest amount, club ",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Simple Go Server with API and Admin Endpoints",
+          "error": null,
+          "elapsedMs": 438
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Simple Go Server with API and Admin Endpoints",
+          "error": null,
+          "elapsedMs": 375
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Go Server Starter with Dual APIs and Swagger\n\nHere's a complete Go project structure:\n\n## Project Layout\n```\ngo-server-starter/\n├── main.go",
+          "error": null,
+          "elapsedMs": 876
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Go server with API, admin, Swagger, and auth",
+          "error": null,
+          "elapsedMs": 1415
+        }
+      ]
+    },
+    {
+      "owner": "prosysscience",
+      "repo": "PySCFabSim-release",
+      "views": 0,
+      "promptPreview": "Build me a Python project that can reproduce semiconductor factory scheduling simulation experiments from the SMT2020 da…",
+      "promptExcerpt": "Build me a Python project that can reproduce semiconductor factory scheduling simulation experiments from the SMT2020 dataset.\n\nI want to install the requirements, point the project at the SMT2020 data, and run the included experiment scripts to compare basic dispatching strategies like FIFO and CR. Please make it easy to run from the command line, save or print the results clearly, and include any small sanity checks so I know the environment and dataset are set up correctly.\n\nThere are also reinforcement learning scripts in the repo, so wire those up enough that I can train, test, and compar",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Python Project for Semiconductor Factory Scheduling Simulation",
+          "error": null,
+          "elapsedMs": 619
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Semiconductor Factory Scheduling Simulation Project in Python",
+          "error": null,
+          "elapsedMs": 385
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Semiconductor Factory Scheduling Simulation Framework\n\nI'll create a complete Python project for SMT2020 semiconductor scheduling experiments with dispatching strategies and RL integration.\n\n## Project Structure",
+          "error": null,
+          "elapsedMs": 1178
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Semiconductor factory simulation and RL experiments",
+          "error": null,
+          "elapsedMs": 428
+        }
+      ]
+    },
+    {
+      "owner": "chaitanyaa241201",
+      "repo": "Full-Stack-Serverless-Note-Taking-Application",
+      "views": 0,
+      "promptPreview": "Build me a full stack serverless note taking app in this repo. I want a clean responsive web app where a user can sign u…",
+      "promptExcerpt": "Build me a full stack serverless note taking app in this repo. I want a clean responsive web app where a user can sign up or log in, see their notes, create a new note, edit an existing note, delete notes, and have everything saved so it is still there when they come back.\n\nUse React for the frontend and AWS Lambda, API Gateway, and DynamoDB for the backend like the README says. Make the UI simple and polished, with an empty state, loading states, basic error messages, and a mobile friendly layout.\n\nPlease wire the frontend to real API calls rather than fake local data, and keep the code organ",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Serverless Note Taking App with AWS and React",
+          "error": null,
+          "elapsedMs": 580
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Serverless Note Taking App with React and AWS",
+          "error": null,
+          "elapsedMs": 588
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Serverless Note-Taking App with React and AWS\n\nI'll build you a complete full-stack serverless note-taking app. Here's the structure:\n\n## Project Setup\n\n```",
+          "error": null,
+          "elapsedMs": 882
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Serverless Note App: React, AWS, and DynamoDB",
+          "error": null,
+          "elapsedMs": 1628
+        }
+      ]
+    },
+    {
+      "owner": "zanfranceschi",
+      "repo": "rinha-de-backend-2026",
+      "views": 1,
+      "promptPreview": "Quero montar uma submissão completa para a Rinha de Backend 2026, focada em detecção de fraude com busca vetorial. Leia…",
+      "promptExcerpt": "Quero montar uma submissão completa para a Rinha de Backend 2026, focada em detecção de fraude com busca vetorial. Leia a documentação do desafio em docs/br/README.md e implemente o backend seguindo exatamente o contrato pedido, com os endpoints, formatos de entrada e saída, limites e regras de pontuação que estiverem lá.\n\nA ideia é ter uma solução simples, rápida e confiável, que consiga comparar vetores para achar possíveis fraudes e responder dentro das restrições de CPU, memória e arquitetura da competição. Pode usar C como base, já que o projeto parece preparado para isso, mas priorize al",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Backend Fraud Detection for 2026 Competition Submission",
+          "error": null,
+          "elapsedMs": 507
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Submissão para Rinha de Backend 2026: Detecção de Fraude",
+          "error": null,
+          "elapsedMs": 451
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Rinha de Backend 2026: Detecção de Fraude com Busca Vetorial\n\nEntendo que você quer montar uma submissão compl",
+          "error": null,
+          "elapsedMs": 888
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Rinha de Backend 2026: Detecção de Fraude com Busca Vetorial",
+          "error": null,
+          "elapsedMs": 1346
+        }
+      ]
+    },
+    {
+      "owner": "dejwid",
+      "repo": "twitter-clone",
+      "views": 1,
+      "promptPreview": "Build me a simple Twitter clone as a Next.js app. I want a clean social feed where people can sign in, write short posts…",
+      "promptExcerpt": "Build me a simple Twitter clone as a Next.js app. I want a clean social feed where people can sign in, write short posts, see a timeline of posts, and interact with them in the basic ways you’d expect, like viewing who posted and when. Make it feel like a modern Twitter style interface, with a main feed, profile style info, and responsive styling that works nicely on desktop and mobile.\n\nUse the existing project setup and keep it straightforward. There are folders for components, hooks, models, pages, styles, and lib, so organize the app in a way that makes sense without overcomplicating it. I",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Create a Simple Twitter Clone with Next.js",
+          "error": null,
+          "elapsedMs": 439
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Simple Twitter Clone App Using Next.js",
+          "error": null,
+          "elapsedMs": 773
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Next.js Twitter Clone Social Feed App\n\nI'll build a clean Twitter clone with authentication, posts, and interactions. Here's the complete implementation:\n\n## Project Structure\n```\nsrc/",
+          "error": null,
+          "elapsedMs": 1122
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Twitter-like app with posts and user profiles",
+          "error": null,
+          "elapsedMs": 484
+        }
+      ]
+    },
+    {
+      "owner": "Chakravartinsamrat",
+      "repo": "CodeQuest",
+      "views": 1,
+      "promptPreview": "Build me a web app called CodeQuest that helps beginners start their coding adventure. I want it to feel like a simple l…",
+      "promptExcerpt": "Build me a web app called CodeQuest that helps beginners start their coding adventure. I want it to feel like a simple learning platform where users can browse DSA topics, open a lesson or challenge, read the explanation, and track what they have completed.\n\nPlease make a clean frontend and a small backend so progress and topic data can be saved instead of being hardcoded everywhere. Include basic pages like home, topics, challenge detail, and progress. A simple name entry is enough for the first version.\n\nKeep the design friendly, modern, and beginner focused, with clear calls to action and h",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Beginner-Friendly Coding Adventure Web App Design",
+          "error": null,
+          "elapsedMs": 790
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Beginner-Friendly Web App for Learning Coding Basics",
+          "error": null,
+          "elapsedMs": 415
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# CodeQuest: Beginner DSA Learning Platform\n\nI'll build you a complete web app with a React frontend and Node.js backend. Here's everything you need:\n\n## Project",
+          "error": null,
+          "elapsedMs": 931
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "Coding Adventure Learning Platform",
+          "error": null,
+          "elapsedMs": 1481
+        }
+      ]
+    },
+    {
+      "owner": "mohit109",
+      "repo": "GenAI_Agents",
+      "views": 2,
+      "promptPreview": "Build me a learning repo for Generative AI agents that someone can clone and use to understand how to make different kin…",
+      "promptExcerpt": "Build me a learning repo for Generative AI agents that someone can clone and use to understand how to make different kinds of AI assistants.\n\nI want it to feel like a practical tutorial collection, starting with simple examples like a chatbot that remembers the conversation, a question answering assistant, and an agent that can look at a dataset and answer plain English questions about it. Then add more advanced examples that show modular agent workflows, multi step reasoning, and a simple academic helper style system with planning, note taking, and study support.\n\nPlease make the examples eas",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Generative AI Assistant Tutorial Repository Creation Guide",
+          "error": null,
+          "elapsedMs": 519
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Generative AI Agents: Practical Tutorial Collection",
+          "error": null,
+          "elapsedMs": 371
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# Generative AI Agents Learning Repository\n\nA comprehensive, hands-on learning collection for building AI assistants from scratch.\n\n## Repository Structure\n\n```\nai-agents-learning/",
+          "error": null,
+          "elapsedMs": 900
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "AI Assistant Cookbook",
+          "error": null,
+          "elapsedMs": 509
+        }
+      ]
+    },
+    {
+      "owner": "ShepAlderson",
+      "repo": "copilot-orchestra",
+      "views": 2,
+      "promptPreview": "Build me a simple GitHub Copilot Orchestra setup that I can drop into my coding projects to make AI development more org…",
+      "promptExcerpt": "Build me a simple GitHub Copilot Orchestra setup that I can drop into my coding projects to make AI development more organized.\n\nI want it to include a main Conductor agent plus separate planning, implementation, and code review agents. The Conductor should guide a feature request from planning, to writing tests first, to implementation, to review, to commit. It should pause for my approval before starting work, save clear plan and progress notes in a plans folder, and make sure each phase has tests and a review before moving on.\n\nKeep it focused on VS Code Insiders and GitHub Copilot custom a",
+      "models": [
+        {
+          "model": "openai/gpt-4o",
+          "label": "gpt-4o",
+          "title": "Organized AI Development Workflow with GitHub Copilot",
+          "error": null,
+          "elapsedMs": 1286
+        },
+        {
+          "model": "openai/gpt-4o-mini",
+          "label": "gpt-4o-mini",
+          "title": "Organized AI Development Setup with GitHub Copilot",
+          "error": null,
+          "elapsedMs": 376
+        },
+        {
+          "model": "anthropic/claude-haiku-4.5",
+          "label": "claude-haiku",
+          "title": "# AI Development Orchestration System\n\nI'll create a GitHub Copilot Orchestra setup for organized AI-assisted development. Here's a complete system:\n\n## Project Structure\n\n```\nyour",
+          "error": null,
+          "elapsedMs": 1275
+        },
+        {
+          "model": "google/gemini-2.5-flash",
+          "label": "gemini-flash",
+          "title": "AI coding assistant for VS Code",
+          "error": null,
+          "elapsedMs": 1551
+        }
+      ]
+    }
+  ]
+}
